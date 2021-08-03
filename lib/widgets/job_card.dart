@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_provider/theme.dart';
 
 class JobCard extends StatelessWidget {
-  // final String text;
-  // final String imageUrl;
+  final String? text;
+  final String? imageUrl;
 
-  // JobCard({this.imageUrl, this.text});
+  JobCard({this.imageUrl, this.text});
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -15,13 +15,19 @@ class JobCard extends StatelessWidget {
         alignment: Alignment.bottomLeft,
         child: Padding(
           padding: const EdgeInsets.only(left: 16, bottom: 16, right: 10),
-          // child: Text(
-          //   text,
-          //   style: subtitlePhoto,
-          // ),
+          child: Text(
+            text.toString(),
+            style: subtitlePhoto,
+          ),
         ),
       ),
-      // decoration: BoxDecoration(image: DecorationImage(image: imageUrl)),
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage(
+            imageUrl.toString(),
+          ),
+        ),
+      ),
     );
   }
 }

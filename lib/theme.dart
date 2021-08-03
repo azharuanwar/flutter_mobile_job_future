@@ -16,3 +16,11 @@ TextStyle mainTextStyle = GoogleFonts.poppins(
     fontSize: 24, fontWeight: FontWeight.w700, color: Color(0xff272C2F));
 TextStyle subtitlePhoto =
     GoogleFonts.poppins(fontSize: 18, color: Color(0xffFFFFFF));
+
+// Job Text Style
+TextStyle jobTextStyle = GoogleFonts.poppins(
+    fontSize: 16, color: Color(0xff272C2F), fontWeight: FontWeight.bold);
+
+// Sub Text Style
+TextStyle subJobTextStyle =
+    GoogleFonts.poppins(fontSize: 14, color: Color(0xffB3B5C4));
