@@ -25,6 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
  <img src="assets/ss.png" alt="Logo" width="275" height="auto">
+ <img src="assets/ss2.png" alt="Logo" width="275" height="auto">
 
 ### Built With
 
