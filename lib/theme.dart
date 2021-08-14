@@ -30,3 +30,12 @@ TextStyle titleSecondHomePage = GoogleFonts.poppins(
 
 TextStyle subtitleSecondHomePage = GoogleFonts.poppins(
     fontSize: 16, color: Color(0xffFFFFFF), fontWeight: FontWeight.w400);
+
+TextStyle titleDetails = GoogleFonts.poppins(
+    fontSize: 20, color: Color(0xff272C2F), fontWeight: FontWeight.w600);
+
+TextStyle requirementTitleDetails = GoogleFonts.poppins(
+    fontSize: 14, color: Color(0xff272C2F), fontWeight: FontWeight.w500);
+
+TextStyle requirementSubDetails = GoogleFonts.poppins(
+    fontSize: 14, color: Color(0xff272C2F), fontWeight: FontWeight.w200);
