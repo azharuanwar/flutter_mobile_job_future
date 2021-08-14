@@ -134,6 +134,17 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.only(left: 24),
+              child: Text(
+                'New Startup',
+                style: GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w500,
+                  color: Color(0xff272c2f),
+                ),
+              ),
+            ),
           ],
         ),
       );
