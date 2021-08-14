@@ -24,3 +24,9 @@ TextStyle jobTextStyle = GoogleFonts.poppins(
 // Sub Text Style
 TextStyle subJobTextStyle =
     GoogleFonts.poppins(fontSize: 14, color: Color(0xffB3B5C4));
+
+TextStyle titleSecondHomePage = GoogleFonts.poppins(
+    fontSize: 24, color: Color(0xffFFFFFF), fontWeight: FontWeight.w600);
+
+TextStyle subtitleSecondHomePage = GoogleFonts.poppins(
+    fontSize: 16, color: Color(0xffFFFFFF), fontWeight: FontWeight.w400);
