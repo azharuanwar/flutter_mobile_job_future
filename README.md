@@ -10,13 +10,7 @@
 
   <h3 align="center">Job Future - Mobile Flutter</h3>
 
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/azharuanwar/"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-  </p>
+ 
 </p>
 
 
